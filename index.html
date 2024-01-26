@@ -17,40 +17,90 @@
   <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js" defer></script>
 </head>
 <body class="debug">
-  <header>header</header>
+  <header class="container-fluid my-3">
+    <div class="row bg-theme1 text-white">
+      <div class="col-4 col-md-3"><img src="" alt="" class="logo">img logo</div>
+      <div class="col-4 d-md-none">hamburger menu, should not see on desktop</div>
+      <div class="col-6">
+        <nav>
+          <li><a href="#family"></a>Family</li>
+          <li><a href="#sheild"></a>Sheild</li>
+          <li><a href="#quote"></a>Quote</li>
+          <li><a href="#map"></a>Map</li>
+          <li><a class="a-outline" href=""></a>External</li>
+          <li><a class="btn btn-outline" href=""></a>External</li>
+        </nav>
+      </div>
+    </div>
+  </header>
   <main>
     <!-- SECTION hero-->
-    <section class="container hero">
-      hero
+    <section id="hero" class="container my-3 hero">
+      <div class="row p-3">
+        <div class="col-md-3">forum</div>
+        <div class="col-md-6">h1 and some text</div>
+      </div>
     </section>
     <!-- !SECTION end hero -->
     
     <!-- SECTION family-->
-    <section class="container hero">
-      family
+    <section id="family" class="container my-3 family">
+      <div class="row">
+        <div class="col-md-6"> 
+          <div class="card">
+            5 rows oc icons with some text.
+            this is the card that needs to stick out the bottom of its section on desktop but be normal on mobile
+          </div> 
+        </div>
+        <div class="col-md-6 order-md-1">h2 and some text needs to come first on desktop but second on mobile</div>
+      </div>
     </section>
     
     <!-- !SECTION end family -->
     <!-- SECTION sheild -->
-    <section class="container hero">
-      sheild
+    <section id="shield" class="container my-3 sheild">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="" alt="">img
+        </div>
+        <div class="col-md-9">
+          <!-- TODO icon h2 and some text -->
+          icon h2 and some text
+          <!-- TODO external link -->
+          external link
+        </div>
+      </div>
     </section>
     
     <!-- !SECTION end sheild-->
     <!-- SECTION qoute -->
-    <section class="container hero">
-      quote
+    <section id="quote" class="container my-3 quote">
+      <div class="row bg-grey1">
+        <div class="col-md-4 card">
+          <!-- TODO quote and name -->
+          quote and name
+        </div>
+        <div class="col-md-4 card order-md-1 best-review"> 
+          <!-- TODO 3icons quote name and "best review" -->
+          3icons quote name and "best review"
+        </div>
+        <div class="col-md-4 card">
+          <!-- TODO quote and name -->
+          quote and name
+        </div>
+      </div>
 
     </section>
     
     <!-- !SECTION end quote -->
     <!-- SECTION map -->
-    <section class="container hero">
+    <section id="map" class="container my-3 map">
+      <!-- TODO we are just going to put in an image that takes up the full width of the page -->
       map
     </section>
     
     <!-- !SECTION end map -->
   </main>
-  <footer>footer</footer>
+  <footer class="container-fluid my-3">footer</footer>
 </body>
 </html>

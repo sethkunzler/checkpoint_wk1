@@ -66,7 +66,7 @@
   background-color: var(--grey-color3)
 }
 
-/* end of my colors */
+/* !end of my colors */
 
 body {
   display: flex;
@@ -76,9 +76,12 @@ body {
 
 main {
   flex-grow: 1;
-  background-color: antiquewhite;
 }
 section {
-  background-color: grey;
+  background-color: var(--support-color2);
+  color: white; 
   border: 2px solid black; 
+}
+.card {
+  color: black; 
 }
