@@ -1,0 +1,84 @@
+:root {
+  --theme-color1:#1536EA;
+  --theme-color2:#5E15EA;
+  --theme-color3:#15A1EA;
+  --support-color1:#1DE2E0;
+  --support-color2:#1D82E2;
+  --support-color3:#1DE27D;
+  --grey-color1: #5C7CA3;
+  --grey-color2: #605CA3;
+  --grey-color3: #5C9FA3;
+}
+
+/* my colors */
+.theme1 {
+  color: var(--theme-color1)
+}
+.theme2 {
+  color: var(--theme-color2)
+}
+.theme3 {
+  color: var(--theme-color3)
+}
+.bg-theme1 {
+  background-color: var(--theme-color1)
+}
+.bg-theme2 {
+  background-color: var(--theme-color2)
+}
+.bg-theme3 {
+  background-color: var(--theme-color3)
+}
+.support1 {
+  color: var(--support-color1)
+}
+.support2 {
+  color: var(--theme-color2)
+}
+.support3 {
+  color: var(--theme-color3)
+}
+.bg-support1 {
+  background-color: var(--support-color1)
+}
+.bg-support2 {
+  background-color: var(--support-color2)
+}
+.bg-support3 {
+  background-color: var(--support-color3)
+}
+.grey1 {
+  color: var(--grey-color1)
+}
+.grey2 {
+  color: var(--theme-color2)
+}
+.grey3 {
+  color: var(--theme-color3)
+}
+.bg-grey1 {
+  background-color: var(--grey-color1)
+}
+.bg-grey2 {
+  background-color: var(--grey-color2)
+}
+.bg-grey3 {
+  background-color: var(--grey-color3)
+}
+
+/* end of my colors */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  background-color: antiquewhite;
+}
+section {
+  background-color: grey;
+  border: 2px solid black; 
+}
