@@ -79,14 +79,13 @@ main {
 section {
   background-color: var(--support-color2);
   color: white; 
-  border: 2px solid black; 
   min-height: 15vh;
 }
 .row{
   margin: 16px 0px;
 }
 .col{
-  margin: 32px 0px;
+  margin: 64px 0px;
 }
 .card {
   color: black;
@@ -105,11 +104,63 @@ nav li a.btn {
   text-color: var(--theme-color3);
 }
 
+/* quote/comment cards */
+
+.best-review {
+  background-color: rgba(124, 255, 124, 0.445);
+  border-radius: 16px;
+  padding: 8px;
+}
+
+span.mdi.mid-star {
+  color: rgba(124, 255, 124, 0.445);
+}
+
+.quote-name {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .bg-img1 {
   background-image: url(https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-color: rgba(0, 0, 0, 0.75);
     background-blend-mode: color;
 }
+
+.bg-img-body {
+  background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=3829&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  min-height: 25vh;
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.bg-img-section {
+  background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=3829&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  min-height: 25vh;
+  min-width: 100%;
+  background-size: cover;
+  background-position: top;
+  background-color: rgba(0, 0, 0, 0.25);
+  background-blend-mode: color;
+}
+.bg-img-foot {
+  background-image: url(https://images.unsplash.com/photo-1557683316-973673baf926?q=80&w=3829&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  min-height: 25vh;
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.25);
+  background-blend-mode: color;
+}
+
+.img-stars {
+  max-width: 100%;
+  padding: 8px; 
+  background-color: var(--grey-color3);
+  border-radius: 16px;
+}
+
 .half-on {
   margin: auto;
   position: absolute;
@@ -119,6 +170,54 @@ nav li a.btn {
   /* margin: auto; */
 }
 
+a {
+  text-decoration: none;
+}
+
+footer a, footer a span {
+  background-color: rgba(255, 255, 255, .25);
+  border-radius: 16px;
+  padding: 8px;
+}
+
+/* id :: before broke the anchors in a weird way that I actually really like */
+/* [id]::before {
+  content: '';
+  display: block;
+  height:      175px; 
+  margin-top: -175px;
+  visibility: hidden;
+} */
+/* #family::before {
+  content: '';
+  display: block;
+  height:      175px; 
+  margin-top: -175px;
+  visibility: hidden;
+} */
+/* #shield::before {
+  content: '';
+  display: block;
+  height:      175px; 
+  margin-top: -175px;
+  visibility: hidden;
+} */
+/* #quote::before {
+  content: '';
+  display: block;
+  height:      175px; 
+  margin-top: -175px;
+  visibility: hidden;
+} */
+/* #map::before {
+  content: '';
+  display: block;
+  height:      175px; 
+  margin-top: -175px;
+  visibility: hidden;
+} */
+
+
 @media screen AND (max-width: 768px) {
   .half-on {
     position: unset;
@@ -126,3 +225,4 @@ nav li a.btn {
     margin: clear;
   }
 }
+
