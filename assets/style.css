@@ -93,6 +93,7 @@ section {
 }
 
 /* navigation bar */
+
 .logo {
   max-height: 5vh;
 }
@@ -181,36 +182,38 @@ footer a, footer a span {
   padding: 8px;
 }
 
-/* id :: before broke the anchors in a weird way that I actually really like */
-/* [id]::before {
+/* id :: before broke the anchors in a weird way. made */
+/* #region */
+/* 
+[id]::before {
   content: '';
   display: block;
   height:      175px; 
   margin-top: -175px;
   visibility: hidden;
-} */
-/* #family::before {
+}
+#family::before {
   content: '';
   display: block;
   height:      175px; 
   margin-top: -175px;
   visibility: hidden;
-} */
-/* #shield::before {
+}
+#shield::before {
   content: '';
   display: block;
   height:      175px; 
   margin-top: -175px;
   visibility: hidden;
-} */
-/* #quote::before {
+}
+#quote::before {
   content: '';
   display: block;
   height:      175px; 
   margin-top: -175px;
   visibility: hidden;
-} */
-/* #map::before {
+}
+#map::before {
   content: '';
   display: block;
   height:      175px; 
@@ -218,6 +221,7 @@ footer a, footer a span {
   visibility: hidden;
 } */
 
+/* #endregion */
 
 @media screen AND (max-width: 768px) {
   .half-on {
